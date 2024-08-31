@@ -2,6 +2,6 @@ image:
 # This image is built upon the following Dockerfile: .gitpod.Dockerfile
 #ghcr.io/lpiot/gitpod-workspace:test
 # You can dynamically build the image when you create a new GitPod workspace with the following lines
-#gitpod/workspace-python-3.12
-lpiot/gitpod-python312:v0.1
+image: gitpod/workspace-python-3.12
+#image: lpiot/gitpod-python312:v0.1
 # file: .gitpod.Dockerfile
